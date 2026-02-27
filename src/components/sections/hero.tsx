@@ -129,7 +129,7 @@ const HeroSection = () => {
                       </Button>
                     </Link>
                     <Link
-                      href={"www.linkedin.com/in/rithish-s-67a0a931"}
+                      href={"https://www.linkedin.com/in/rithish-s-67a0a9315/"}
                       target="_blank"
                       className="cursor-can-hover"
                     >

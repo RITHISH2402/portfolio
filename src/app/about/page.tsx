@@ -253,7 +253,7 @@ function Page() {
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
                 <p className="text-center text-xl">Rithish S</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Cyber Security Student & Web Developer
                 </div>
               </div>
             </div>

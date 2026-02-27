@@ -66,7 +66,7 @@ const projects: Project[] = [
     title: "My Portfolio",
     src: "/assets/projects-screenshots/portfolio/landing.png",
     screenshots: ["landing.png"],
-    live: "https://github.com/RITHISH2402/RITHISH2402",
+    live: "https://portfolio-4-rho.vercel.app",
     github: "https://github.com/RITHISH2402/RITHISH2402",
     skills: {
       frontend: [

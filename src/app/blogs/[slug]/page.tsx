@@ -9,9 +9,11 @@ import RevealAnimation from "@/components/reveal-animations";
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  return posts
+    .filter((post) => post.slug !== undefined)
+    .map((post) => ({
+      slug: post.slug,
+    }));
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {

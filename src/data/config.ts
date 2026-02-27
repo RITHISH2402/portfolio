@@ -25,8 +25,8 @@ const config = {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "",
-    linkedin: "www.linkedin.com/in/rithish-s-67a0a9315",
+    threads: "https://www.threads.com/@_.rithizzx._",
+    linkedin: "https://www.linkedin.com/in/rithish-s-67a0a9315/",
     instagram: "https://www.instagram.com/_.rithizzx._?igsh=MTMxdDNibHNoZXVhbQ==",
     github: "https://github.com/RITHISH2402/RITHISH2402",
   },

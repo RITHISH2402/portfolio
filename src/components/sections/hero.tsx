@@ -56,7 +56,7 @@ const HeroSection = () => {
                         )}
                       >
                         {config.author.split(" ")[0]}
-                        <br className="md:block hiidden" />
+                        <br className="md:block hidden" />
                         {config.author.split(" ")[1]}
                       </h1>
                     </TooltipTrigger>
@@ -83,8 +83,9 @@ const HeroSection = () => {
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1URKcuXMGor568Ht4Ags6TasTCkTCQZsI/view?usp=sharing"                  }
+                    "https://drive.google.com/file/d/1URKcuXMGor568Ht4Ags6TasTCkTCQZsI/view?usp=sharing"}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1"
                 >
                   <BoxReveal delay={2} width="100%" >
@@ -112,8 +113,9 @@ const HeroSection = () => {
                   </Tooltip>
                   <div className="flex items-center h-full gap-2">
                     <Link
-                      href={"https://www.threads.com/@_.rithizzx._"}
+                      href={config.social.threads}
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <Button variant={"outline"}>
                         <SiX size={24} />
@@ -122,6 +124,7 @@ const HeroSection = () => {
                     <Link
                       href={config.social.github}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="cursor-can-hover"
                     >
                       <Button variant={"outline"}>
@@ -131,6 +134,7 @@ const HeroSection = () => {
                     <Link
                       href={"https://www.linkedin.com/in/rithish-s-67a0a9315/"}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="cursor-can-hover"
                     >
                       <Button variant={"outline"}>

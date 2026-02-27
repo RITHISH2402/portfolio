@@ -1,4 +1,4 @@
-// thoda zada ts ho gya idhar
+
 export enum SkillNames {
   JS = "js",
   TS = "ts",
@@ -270,7 +270,7 @@ export const EXPERIENCE: Experience[] = [
     company: "Personal Projects",
     description: [
       "Built full-stack web applications using React, Tailwind, and Node.js.",
-      "Developed and deployed a vertinary appointment booking system with real-time availability and notifications.",
+      "Developed and deployed a veterinary appointment booking system with real-time availability and notifications.",
       "Developed a AI chatbot for students.",
     ],
     skills: [

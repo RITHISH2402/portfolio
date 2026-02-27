@@ -3,29 +3,29 @@
 import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import { Button } from "../ui/button";
-import { SiGithub, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiInstagram, SiLinkedin, SiThreads } from "react-icons/si";
 import { config } from "@/data/config";
 import Link from "next/link";
 
 const BUTTONS = [
   {
     name: "Github",
-    href: "https://github.com/RITHISH2402/RITHISH2402",
+    href: config.social.github,
     icon: <SiGithub size={"24"} color={"#fff"} />,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/rithish-s-67a0a9315/",
+    href: config.social.linkedin,
     icon: <SiLinkedin size={"24"} color={"#fff"} />,
   },
   {
-    name: "Twitter",
-    href: "https://www.threads.com/@_.rithizzx._",
-    icon: <SiX size={"24"} color={"#fff"} />,
+    name: "Threads",
+    href: config.social.threads,
+    icon: <SiThreads size={"24"} color={"#fff"} />,
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/_.rithizzx._?igsh=MTMxdDNibHNoZXVhbQ==",
+    href: config.social.instagram,
     icon: <SiInstagram size={"24"} color={"#fff"} />,
   },
 ];
@@ -37,7 +37,7 @@ const SocialMediaButtons = () => {
     <div ref={ref} className="z-10">
       {show &&
         BUTTONS.map((button) => (
-          <Link href={button.href} key={button.name} target="_blank">
+          <Link href={button.href} key={button.name} target="_blank" rel="noopener noreferrer">
             <Button variant={"ghost"}>{button.icon}</Button>
           </Link>
         ))}
